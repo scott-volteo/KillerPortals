@@ -1,12 +1,15 @@
 # Introduction
+
 ## Goal
 
 The goal of this lab is the reinforce the Best Practices and Key Capabilities from the presentation today. In it you will leverage key ServiceNow capabilities to design a portal that is contextual to the user; with relevant content and catalog items, visually different; with the application of a simple or complex theme change, and representative of a portal that helps a customer's journey to self-service
 
 ### Getting Started - Log on to Your Training Instance
+
 1. Navigate to the unique instance URL provided to you.
 1. Log on with the provided credentials
 1. Change your password to something memorable just in case you get logged out of your instance.
+
 <!--
     1. Create your lab guide starting here.
 
@@ -18,11 +21,13 @@ The goal of this lab is the reinforce the Best Practices and Key Capabilities fr
 -->
 
 # Lab 1 - Understanding the Current State
+
 ## Goal
 
 In this lab we are going to get a better understanding of the current state of the portal. To do this we want to look at capabilities the platform provides but also get feedback from users
 
 ## 1.1 - Usage Overview
+
 First we'll look at **Usage Overview* to gather quantitative data about user's behaviors on the portal. Here you can see the most popular *search terms*, *pages, *knowledge article*, and more...
 
 1. Log in to your instance
@@ -30,15 +35,13 @@ First we'll look at **Usage Overview* to gather quantitative data about user's b
 1. Review the Service Portal Search Terms
 
 ### Think About
-	What are the most popular search terms?
 
-
-	Are people typing in terms that don’t correlate to data in your catalog
-	
-    
-    Are there popular search terms to just don’t make sense?
+What are the most popular search terms?
+Are people typing in terms that don’t correlate to data in your catalog
+Are there popular search terms to just don’t make sense?
 
 ## 1.2 - Survey Results
+
 To learn more about the current state of your company's portal, we ran a survey last month with a sample of *50* users. Let's review what those users had to say
 
 1. Navigate to **Surveys&rarr;View Surveys**
@@ -46,13 +49,14 @@ To learn more about the current state of your company's portal, we ran a survey 
 1. Click on **View Scorecard**
 
 ### Think About
-	What are the weakest attributes of the portal based on the survey data?
-	
-    Are there any interesting comments that can inform your path forward?
+
+What are the weakest attributes of the portal based on the survey data?
+Are there any interesting comments that can inform your path forward?
 
 >**Note:** We recommend this survey as a way for customers to assess the current state of their portal. You can download the [update set](files/survey.xml) with the survey.
 
 ## 1.3 - Usability Test
+
 Now we want to collect qualitative feedback by observing how someone interacts with the current portal. For this lab, you'll be pairing off with a partner and each assuming a different role.
 
 ![usability test](images/usabilityTest.png)
@@ -62,20 +66,30 @@ Now we want to collect qualitative feedback by observing how someone interacts w
 1. Whoever traveled the **FURTHEST* to get here will be the *Participant*. The other will play the role of *Facilitator*
 1. The facilitator's job is to observe how the participant completes the task(s) assigned.
 1. The presenters will share the task with you.
-1. The participant's job is to try and complete the assigned task(s). 
+1. The participant's job is to try and complete the assigned task(s).
 1. The facilitator should take notes as they observe how the tasks are completed.
 
 ### Think About
-	Was the participant able to easily complete the tasks presented to them?
-	
-    If not, where did they encounter issues?
 
-    How can we better leverage the platform to reduce the friction the participant encountered?
+Was the participant able to easily complete the tasks presented to them?
+If not, where did they encounter issues?
+How can we better leverage the platform to reduce the friction the participant encountered?
 
 # Information Finds the User
+
 In this lab, we'll be leveraging a set of capabilitieis to effectively bring information to the user. By leveraging what the platform knows about the user, the Portal can present information that is uniqueley relevant to them. These are just a few ways this information can be used; when working with your customers, think about how they might leverage these capabilities to create a tailored experience.
 
 ## Vegetarians Don't Eat Meat - Use User Criteria to filter their Menu
+
+One of the things we noticed in our usability test was that guests with certain food allergies, had a hard time finding menu items that met their dietary needs. Let’s use User Criteria to filter what these guests see.
+
+1. Open the User Profile for *FIRST LAST* and review the Groups they belong to. One of their groups should be **Vegetarians**
+1. Now, navigate to **Maintain Items* and identify all the meat-based "menu" items
+1. Select an item and scroll down the the *Related Lists* and select **Not Available For Group**
+![Not Available for Group selected](images/notAvailableFor.png)
+1. Click **Edit** and add the group *Vegetarians* from the slush bucket.
+1. Save your changes
+1. Repeat for the remaining meat items.
 
 ## Creating your local repository
 
@@ -183,7 +197,7 @@ If your lab/workshop has exercises that depend upon each other, use ServiceNow's
 
     1. And markdown will pick up numbering where you left off.
 
-    1. Place a blank line between ordered and unordered lists for clarity. 
+    1. Place a blank line between ordered and unordered lists for clarity.
 
 * Indent supporting images and text to allow numbered lists to continue
 
@@ -200,7 +214,7 @@ This is the general form of an image tag in Markdown with alt text in [] and the
 * Inline images must be smaller than 100 pixels wide.
 
 * All images MUST have alternate text defined for accessibility compliance.  This is the part of the image markdown in the square brackets.  This text should describe the image in a way that allows a screen reader to provide context to someone who cannot see the image.
-	
+ 
 * DO NOT use a screenshot as a replacement for text as this is not usable for people with accessibility requirements.
 
     For example, do not say “configure the record as shown \<insert screenshot\>”.  You can have a screenshot showing the configured record but you must also have text outside of the screenshot to explain what to do.
@@ -262,11 +276,10 @@ This is the general form of an image tag in Markdown with alt text in [] and the
 * Identify questions and notes with the Markdown prefix **>**
 
     > Note: If you get a 403 error, check your headers.
-
     > Question: Did the list show 5 records?
 
 * As the learner reads your guidebook, provide them fewer details.
-    
+
     For example, after you have given the six-step instructions to create a user record, you do not provide the same six steps for each additional user record. Simply give instructions such as: *Repeat steps 1-6 to create two additional user accounts for Tom Harrington, and Dory Williams.* Assume the learner is learning! This also makes it easier to maintain the guidebook should any of the details change.
 
 * Use tables when providing repetitive data entry instructions
@@ -294,11 +307,13 @@ This is the general form of an image tag in Markdown with alt text in [] and the
     * Avoid dot walking to a sys_id. A reference field value *is* a sys_id, so dot-walking is redundant and costs an extra database query.
 
         **NO**:
+
         ```javascript
         var id = current.caller_id.sys_id;
         ```
-        
+
         **YES**:
+
         ```javascript
         var id = current.getValue('caller_id');
         ```
@@ -306,11 +321,13 @@ This is the general form of an image tag in Markdown with alt text in [] and the
     * Use GlideRecord getValue() instead of using dotted-notation. Using dotted-notation can return incorrect values as the dotted field is an object (making work in Service Portal frustrating) and GlideRecord is a pointer (making values in loops troublesome). getValue() also allows you to use variables for field names.
 
        **NO**:
+
         ```javascript
         var location = userGr.location;
         ```
 
        **YES**:
+
         ```javascript
         var location = userGr.getValue('location');
         ```
@@ -318,11 +335,13 @@ This is the general form of an image tag in Markdown with alt text in [] and the
     * When you need to dot-walk to a reference value, use toString(). Do not use toString() in place of getValue() in the previous example.
 
        **NO**:
+
         ```javascript
         var locationID = current.caller_id.location;
         ```
 
        **YES**:
+
         ```javascript
         var locationID = current.caller_id.location.toString();
         ```
@@ -330,11 +349,13 @@ This is the general form of an image tag in Markdown with alt text in [] and the
     * Use setValue() instead of dotted notation when setting a field value.
 
         **NO**:
+
         ```javascript
         incGr.state = 5;
         ```
 
        **YES**:
+
         ```javascript
         incGr.setValue('state', 5);
         ```
@@ -342,6 +363,7 @@ This is the general form of an image tag in Markdown with alt text in [] and the
     * Avoid hard coding sys_ids. Use a property value, or use the setDisplayValue() method (or both) where you can. sys_ids and other hard coded strings are difficult to read and maintain.
 
        **NO**:
+
         ```javascript
         current.assignment_group = '3176fe10db4e1340cbf6d5b0cf9619cd';
         ```
@@ -350,7 +372,7 @@ This is the general form of an image tag in Markdown with alt text in [] and the
 
        | Field | Value |
        |-------|-------|
-       | Name | my_app.default.assignment_group | 
+       | Name | my_app.default.assignment_group |
        | Value | Help Desk |
 
         ```javascript
@@ -360,6 +382,7 @@ This is the general form of an image tag in Markdown with alt text in [] and the
     * Use GlideRecord setLimit(1) when you only need one record to check if a record exists. This can greatly speed up queuries.
 
        **NO**:
+
         ```javascript
         var incGr = new GlideRecord('incident');
         incGr.addQuery('active', true);
@@ -372,6 +395,7 @@ This is the general form of an image tag in Markdown with alt text in [] and the
         ```
 
        **YES**:
+
         ```javascript
          var incGr = new GlideRecord('incident');
         incGr.addQuery('active', true);
@@ -383,7 +407,7 @@ This is the general form of an image tag in Markdown with alt text in [] and the
             return incGr;
         }
        ```
-    
+
 ## Emphasis
 
 * Do not use "quotes" for emphasis.
@@ -391,27 +415,27 @@ This is the general form of an image tag in Markdown with alt text in [] and the
 * Use **bold** for:
 
     * Anything users click, type, or drag
-	    * Example: Click the **Save** button.
+     * Example: Click the **Save** button.
     * Application Navigator paths
-    	* Example: Use the Application Navigator to open **System Applications \> Studio**.
+     * Example: Use the Application Navigator to open **System Applications \> Studio**.
     * Application Explore paths
-	* Example: To open an applet in Studio, use the Application Explorer to open **Mobile Studio \> Applets \> \<applet name\>**.
+ * Example: To open an applet in Studio, use the Application Explorer to open **Mobile Studio \> Applets \> \<applet name\>**.
 
 * Use *italics* for:
 
     * Application names
-	    * Open the *NeedIt* application in Studio.
+     * Open the *NeedIt* application in Studio.
     * Application file names
-	    * Example: Configure the *Update Record* action.
-    	* Example: The *NeedIt When needed field date* Business Rule prevents creating *NeedIt* records with *When needed* field values in the past. 
+     * Example: Configure the *Update Record* action.
+     * Example: The *NeedIt When needed field date* Business Rule prevents creating *NeedIt* records with *When needed* field values in the past.
     * Field names and values
-	    * Example: *Name*: **Shopping List**
-	    * Example: In the example, the *Starting Number* field contains a 4-digit number. 
-	    * Example: When the *Active* field is *true*...
+     * Example: *Name*: **Shopping List**
+     * Example: In the example, the *Starting Number* field contains a 4-digit number.
+     * Example: When the *Active* field is *true*...
     * Related list names
-	    * Example: Click the **New** button on the *HTTP Methods* related list.
+     * Example: Click the **New** button on the *HTTP Methods* related list.
     * Dialog names
-    	* In the *Select Application* dialog, click the **NeedIt** link to open the *NeedIt* application for editing.
+     * In the *Select Application* dialog, click the **NeedIt** link to open the *NeedIt* application for editing.
 
 * Use \< \> around variable data or data a user selects. (Do not forget to use backslash before \< and \>.)
 
@@ -445,7 +469,7 @@ For example, when adding application files to Studio, always use the same verbia
 
    1. Select **UI Policy** in the middle pane as the file type then click the **Create** button.
 
-1.	Configure the UI Policy:
+1. Configure the UI Policy:
 
     | Field | Value |
     |-------|-------|
@@ -501,9 +525,8 @@ For example, when adding application files to Studio, always use the same verbia
 * UTILIZE should NEVER be used in our content as it means to use something not fit for purpose.  As in, “make do with”.
 
 * Give clarity as to where someone should look for something.  
-	* **NO**: Click **Save**.  
-	* **YES**: In the Properties dialog, click the **Save** button.
+ * **NO**: Click **Save**.  
+ * **YES**: In the Properties dialog, click the **Save** button.
 * Do not use positional words unless required.  
-	* **NO**: In the screenshot below...  
-	* **YES**: In the example...
-
+ * **NO**: In the screenshot below...  
+ * **YES**: In the example...
