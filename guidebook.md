@@ -22,7 +22,7 @@ The goal of this lab is the reinforce the Best Practices and Key Capabilities fr
 
 In this lab we are going to get a better understanding of the current state of the portal. To do this we want to look at capabilities the platform provides but also get feedback from users
 
-## Usage Overview
+## 1.1 - Usage Overview
 First we'll look at **Usage Overview* to gather quantitative data about user's behaviors on the portal. Here you can see the most popular *search terms*, *pages, *knowledge article*, and more...
 
 1. Log in to your instance
@@ -38,7 +38,44 @@ First we'll look at **Usage Overview* to gather quantitative data about user's b
     
     Are there popular search terms to just don’t make sense?
 
+## 1.2 - Survey Results
+To learn more about the current state of your company's portal, we ran a survey last month with a sample of *50* users. Let's review what those users had to say
 
+1. Navigate to **Surveys&rarr;View Surveys**
+1. Open *Room Service Portal Survey*
+1. Click on **View Scorecard**
+
+### Think About
+	What are the weakest attributes of the portal based on the survey data?
+	
+    Are there any interesting comments that can inform your path forward?
+
+>**Note:** We recommend this survey as a way for customers to assess the current state of their portal. You can download the [update set](files/survey.xml) with the survey.
+
+## 1.3 - Usability Test
+Now we want to collect qualitative feedback by observing how someone interacts with the current portal. For this lab, you'll be pairing off with a partner and each assuming a different role.
+
+![usability test](images/usabilityTest.png)
+
+1. Pair off with another lab participant
+1. Introduce yourselves - Name, Role, Location
+1. Whoever traveled the **FURTHEST* to get here will be the *Participant*. The other will play the role of *Facilitator*
+1. The facilitator's job is to observe how the participant completes the task(s) assigned.
+1. The presenters will share the task with you.
+1. The participant's job is to try and complete the assigned task(s). 
+1. The facilitator should take notes as they observe how the tasks are completed.
+
+### Think About
+	Was the participant able to easily complete the tasks presented to them?
+	
+    If not, where did they encounter issues?
+
+    How can we better leverage the platform to reduce the friction the participant encountered?
+
+# Information Finds the User
+In this lab, we'll be leveraging a set of capabilitieis to effectively bring information to the user. By leveraging what the platform knows about the user, the Portal can present information that is uniqueley relevant to them. These are just a few ways this information can be used; when working with your customers, think about how they might leverage these capabilities to create a tailored experience.
+
+## Vegetarians Don't Eat Meat - Use User Criteria to filter their Menu
 
 ## Creating your local repository
 
