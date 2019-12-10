@@ -10,16 +10,6 @@ The goal of this lab is the reinforce the Best Practices and Key Capabilities fr
 1. Log on with the provided credentials
 1. Change your password to something memorable just in case you get logged out of your instance.
 
-<!--
-    1. Create your lab guide starting here.
-
-    2. Use the instructions below as a template
-       to format your guidebook.
-
-    3. When you are done writing your guidebook,
-       remove the template instructions.     
--->
-
 # Lab 1 - Understanding the Current State
 
 ## Goal
@@ -77,7 +67,7 @@ How can we better leverage the platform to reduce the friction the participant e
 
 # Information Finds the User
 
-In this lab, we'll be leveraging a set of capabilitieis to effectively bring information to the user. By leveraging what the platform knows about the user, the Portal can present information that is uniqueley relevant to them. These are just a few ways this information can be used; when working with your customers, think about how they might leverage these capabilities to create a tailored experience.
+In this lab, we'll be leveraging a set of capabilities to effectively bring information to the user. By leveraging what the platform knows about the user, the Portal can present information that is uniquely relevant to them. These are just a few ways this information can be used; when working with your customers, think about how they might leverage these capabilities to create a tailored experience.
 
 ## 2.1 - Vegetarians Don't Eat Meat - Use User Criteria to filter their Menu
 
@@ -129,10 +119,30 @@ The market of plant-based alternatives to beef and chicken continues to expand, 
     ![Recipient List Configuration](images/recipientList.png)
 
 1. Submit the Publication
-1. **TODO* Any more steps? TKTKTKTK 
+1. **TODO* Any more steps? TKTKTKTK
 
 ## Lab 2.3 When they read about the Room Service policies, they want information relevant to them - Knowledge Blocks
 
 To wrap up this lab, we are going to configure some articles to show content based on User Criteria. This will use *Knowledge Blocks* to provide dynamic information, based on the user's profile.
 
-# 
+1. Step 1
+1. Step 2
+
+# Consumers != Providers
+
+Often times, when creating content for a portal, customers create it from the perspective of the fulfiller and don't recognize that the user that will consume the content has a different level of knowledge, set of expectations and experiences as it relates to the issue. This often means that catalog items are confusing and users opt to call for help instead of self serving. In this lab, we'll take what we learned from the usability study and try and improve site content.
+
+## Lab 3.1 - All I want is a sandwich, but now you are asking me to be a cook? - Variable Sets
+
+Different chefs added menu items to the catalog and ask for information about the menu options in different ways. Let's use variable sets to improve how we get guests' preferences for their order.
+
+1. Step 1
+1. Step 2
+
+<!-- TO DO IDEA FOR LAB 3 -->
+
+## Lab 3.2 - Is there something else we can do for this topic
+
+# Don't Follow the Org Chart
+
+Similar to the previous lab, customers don't always know how to communicate to their end users. They use internal naming conventions, acronmyns, and 
