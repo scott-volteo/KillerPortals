@@ -48,11 +48,11 @@ To learn more about the current state of your company's portal, we ran a survey 
 
 **Note:** We recommend this survey as a way for customers to assess the current state of their portal. You can download the [update set](files/survey.xml) with the survey.
 
-## 1.3 - Usability Test
+## 1.3 - Ussability Study
 
 Now we want to collect qualitative feedback by observing how someone interacts with the current portal. For this lab, you'll be pairing off with a partner and each assuming a different role.
 
-![usability test](images/usabilityTest.png)
+![usability study](images/usabilityTest.png)
 
 1. Pair off with another lab participant
 1. Introduce yourselves - Name, Role, Location
@@ -76,7 +76,7 @@ In this lab, we'll be leveraging a set of capabilities to effectively bring info
 
 ## 2.1 - Vegetarians Don't Eat Meat - Use User Criteria to filter their Menu
 
-One of the things we noticed in our usability test was that guests with certain food allergies, had a hard time finding menu items that met their dietary needs. Let’s use User Criteria to filter what these guests see.
+One of the things we noticed in our usability study was that guests with certain food allergies, had a hard time finding menu items that met their dietary needs. Let’s use User Criteria to filter what these guests see.
 
 1. Open the User Profile for *FIRST LAST* and review the Groups they belong to. One of their groups should be **Vegetarians**
 1. Now, navigate to **Maintain Items** and identify all the meat-based "menu" items
@@ -169,7 +169,7 @@ Often times, when creating content for a portal, customers create it from the pe
 
 ## Lab 3.1 - This form has so many options, I'd rather go hungry. - Form Design
 
-In the usability tests we ran, participants struggled to complete their orders. They specifically pointed out that the forms felt really long and confusing for each menu item they wanted to add. How might we improve the form inputs to make it more approachable for guests?
+In the usability studies we ran, participants struggled to complete their orders. They specifically pointed out that the forms felt really long and confusing for each menu item they wanted to add. How might we improve the form inputs to make it more approachable for guests?
 
 1. Open the Hamburger catalog item from the Maintain Items Application Module
 1. Delete the Toppings checkbox variables from the item.
@@ -205,7 +205,7 @@ In the usability tests we ran, participants struggled to complete their orders. 
 ## Lab 3.2 - All I want is a sandwich, but now you are asking me to be a cook? - Variable Sets
 
 <!-- TO DO -->
-During the usability testing we ran, participants complained that the same questions were asked in many different ways and the order of options was never consistent. This caused them to make mistakes in filling out the forms. Lets use Variable Sets to ensure consistency across similar catalog items.
+During the usability studying we ran, participants complained that the same questions were asked in many different ways and the order of options was never consistent. This caused them to make mistakes in filling out the forms. Lets use Variable Sets to ensure consistency across similar catalog items.
 
 1. Reopen the Hamburger catalog item.
 1. Switch to the *Variable Sets* related list.
