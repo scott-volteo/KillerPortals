@@ -27,9 +27,9 @@ First we'll look at **Usage Overview** to gather quantitative data about user's 
 ### Think About
 
 > What are the most popular search terms?
-> 
+>
 > Are people typing in terms that do not correlate to data in your catalog?
-> 
+>
 > Are there popular search terms to just do not make sense?
 
 ## 1.2 - Survey Results
@@ -154,7 +154,7 @@ Different chefs added menu items to the catalog and ask for information about th
 
 ## Goal
 
-Similar to the previous lab, customers don't always know how to communicate to their end users. They use internal naming conventions, acronmyns, and 
+Similar to the previous lab, customers don't always know how to communicate to their end users. They use internal naming conventions, acronyms, and
 
 ## Lab  4.1 - Card Sort
 
@@ -167,6 +167,7 @@ Quisque placerat varius libero ut aliquet. Integer pulvinar, massa a lacinia pla
 # Lab 5 - Keep the Portal in Context
 
 ## Goal
+
 Portals that don't follow corporate style guides make users confused as to where they are. Use Portal themeing to change out color schemes to match a company brand. Or, go beyond with a template to completely change the look and feel of a Portal to make it more closely match a desired design.
 
 ## Lab 5.1 - Apply a Bootswatch Theme
@@ -174,10 +175,11 @@ Portals that don't follow corporate style guides make users confused as to where
 Suspendisse sodales sagittis feugiat. Donec ut urna vel lectus congue fringilla. Nullam a enim dictum, commodo ex ut, tristique nibh. Sed consectetur nulla eu lectus mollis aliquet. Vivamus vitae ante eget felis tincidunt mollis. Phasellus bibendum purus vel cursus vulputate. Suspendisse ut metus sit amet massa tempor placerat iaculis dictum elit. Praesent eu augue eu risus dapibus interdum. Pellentesque commodo sapien ac quam egestas, id dapibus enim mollis. Nullam tellus felis, eleifend at est sollicitudin, aliquam dignissim lectus. Sed ultricies posuere felis non rhoncus. Nulla massa nisl, sagittis a urna sit amet, ornare laoreet tortor. Mauris dolor massa, eleifend vitae magna in, scelerisque vulputate sapien. Sed sit amet gravida purus, at finibus quam. Proin non nisi ut sapien porta viverra id nec ipsum.
 
 ## Lab 5.2 - Challenge Lab - Apply the Bondi theme
+
 Integer eu purus convallis, efficitur odio sed, malesuada nisl. Aliquam vitae pulvinar lorem. Suspendisse sollicitudin imperdiet ligula sit amet mattis. Nullam aliquet neque ut mi fermentum varius. Suspendisse pellentesque metus elit, at vestibulum felis volutpat in. Curabitur maximus magna id nulla laoreet scelerisque. Aliquam enim nisl, fringilla ac magna at, varius posuere elit. Nulla hendrerit gravida felis, sit amet viverra neque egestas id. Sed commodo rhoncus enim, in semper massa pellentesque in. Proin dapibus velit et nisi vehicula cursus. Fusce feugiat efficitur varius. Maecenas non sapien fringilla, porta felis eleifend, luctus dui.
 
 1. Go to the [ServiceNow Innovation](http://servicenowinnovation.com) site
 1. Click **Library** in the header
-2. Click on **Portal Templates**
-3. Click on **Bondi** (*Note*: there are other records called **Bondi Theme**, but we want the one just called **Bondi** as that is a template)
-4. KEEP GOING
+1. Click on **Portal Templates**
+1. Click on **Bondi** (*Note*: there are other records called **Bondi Theme**, but we want the one just called **Bondi** as that is a template)
+1. KEEP GOING
