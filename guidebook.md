@@ -205,37 +205,50 @@ In the usability tests we ran, participants struggled to complete their orders. 
 ## Lab 3.2 - All I want is a sandwich, but now you are asking me to be a cook? - Variable Sets
 
 <!-- TO DO -->
-During the usability testing we ran, participants complained that the same questions were asked in many different ways and the order of options was never consistent. This caused them to make mistakes in filling out the forms. Lets use Variable Sets to ensure consistency across similar catalog items
+During the usability testing we ran, participants complained that the same questions were asked in many different ways and the order of options was never consistent. This caused them to make mistakes in filling out the forms. Lets use Variable Sets to ensure consistency across similar catalog items.
 
-1. Reopen the Hamburger catalog item
-1. Switch to the *Variable Sets* related list
-1. Click **New**
-1. Click **Single-Row Variable Set**
-1. Set the **Title** to *Common Beef Items*
-1. Click Submit
-1. Switch to the *Variables* related list
-1. Select the *How would you like your meat cooked?* variable
-1. Clear out the *Catalog Item* field
-1. Hit tab to leave the field
-1. A new field will show up, titled *Variable Set*
-1. Select **Common Beef Items** reference
-1. Click **Update**
-1. Repeat Steps 8-13 for the *What toppings would you like?* variable
+1. Reopen the Hamburger catalog item.
+1. Switch to the *Variable Sets* related list.
+1. Click **New**.
+1. Click **Single-Row Variable Set**.
+1. Set the **Title** to *Common Beef Items*.
+1. Click Submit.
+1. Switch to the *Variables* related list.
+1. Select the *How would you like your meat cooked?* variable.
+1. Clear out the *Catalog Item* field.
+1. Hit tab to leave the field.
+1. A new field will show up, titled *Variable Set*.
+1. Select **Common Beef Items** reference.
+1. Click **Update**.
+1. Repeat Steps 8-13 for the *What toppings would you like?* variable.
 1. Add the *Common Beef Items* variable set to the Cheese Steak catalog item.
+1. Go to the `/sp` on your instance and open one of the catalog items you just edited. Does it have the new variables?
+
+>**Take Away** How did the changes we make, make the experience easier for our guests to put in their order?
 
 # Lab 4 - Don't Follow the Org Chart
 
 ## Goal
 
-Similar to the previous lab, customers don't always know how to communicate to their end users. They use internal naming conventions, acronyms, and
+Similar to the previous lab, customers don't always know how to communicate to their end users. They use internal naming conventions, acronyms, and organize content based on their org chat. That does not always map to how users talk about the services and articles a portal provides. In this lab we'll explore how to learn about how users organize information and then use that insight to improve the catalog.
 
 ## Lab  4.1 - Card Sort
 
-Praesent sapien tortor, euismod ut posuere non, accumsan sit amet mi. Donec accumsan aliquet lacus, sed feugiat mauris elementum eu. Sed a risus sapien. Vestibulum feugiat efficitur elit, sollicitudin finibus nunc semper eget. Etiam nec nisl turpis. Quisque faucibus tincidunt lectus congue viverra. In lorem nisl, mattis non mattis congue, vestibulum vitae turpis. Donec lacinia porttitor condimentum. Vestibulum malesuada ante vel lobortis mollis. Suspendisse dolor tortor, blandit eget semper in, fringilla at nunc. Phasellus dignissim ante non lorem molestie, a accumsan lectus interdum. Quisque sit amet risus eu urna tristique efficitur. Nullam leo velit, posuere ut orci ac, sollicitudin commodo ex. Phasellus sit amet tellus enim.
+The first activity is to participate in a card sort. This is a *learning* activity to better understand the users before creating a solution. This is something a customer's User Experience Team might run, or you might help them setup this exercise. There are great third party tools out there to run these studies such as [Optimal Sort](https://www.optimalworkshop.com/optimalsort). For today, we'll just use a Visual Task Board (VTB) to simulate the exercise.
+
+1. On your instance, use the Application Navigator to open *My Task Boards*
+1. Make sure *Boards you Belong To* is the selected tab.
+1. Open *Room Service Card Sort*
+1. Take the next **5 Minutes** to organize all the cards (menu items) in the *Unsorted* lane into the appropriate lane (menu section) that you would expect to find that item.
+1. If there is not a lane that your item fits into, feel free to use the **Add Lane** button to add a new menu section.
 
 ## Lab 4.2 - Update Catalog
 
-Quisque placerat varius libero ut aliquet. Integer pulvinar, massa a lacinia placerat, erat lectus aliquet purus, nec imperdiet nisi est et velit. Donec fermentum consectetur finibus. Maecenas interdum lobortis eleifend. Pellentesque ultrices vitae enim quis congue. Phasellus quis tempor arcu, rhoncus porttitor orci. Maecenas luctus lobortis nisl, ac rutrum est aliquam ac. Quisque sollicitudin ullamcorper urna. Nulla facilisi. Nullam non tristique felis. Maecenas gravida dui et venenatis consequat. Curabitur fermentum volutpat risus a interdum. Aenean vehicula, metus in fermentum molestie, mi neque condimentum orci, feugiat interdum leo tellus quis lectus.
+We aggregated data from a similar exercise.
+
+## Lab 4.3 - Improve the Meta Data
+
+In our usability studies, we learned that participants struggled to find cheeseburgers in the catalog because there is no specific catalog item called **Cheeseburger**. It is just a hamburger with cheese as a variable. Now we could add a separate catalog item, or improve the search results through meta data.
 
 # Lab 5 - Keep the Portal in Context
 
