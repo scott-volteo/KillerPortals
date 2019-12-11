@@ -139,16 +139,63 @@ To wrap up this lab, we are going to configure some articles to show content bas
 
 Often times, when creating content for a portal, customers create it from the perspective of the fulfiller and don't recognize that the user that will consume the content has a different level of knowledge, set of expectations and experiences as it relates to the issue. This often means that catalog items are confusing and users opt to call for help instead of self serving. In this lab, we'll take what we learned from the usability study and try and improve site content.
 
-## Lab 3.1 - All I want is a sandwich, but now you are asking me to be a cook? - Variable Sets
+## Lab 3.1 - This form has so many options, I'd rather go hungry. - Form Design
 
-Different chefs added menu items to the catalog and ask for information about the menu options in different ways. Let's use variable sets to improve how we get guests' preferences for their order.
+<!-- TODO -->
+Something about what you saw in the usability tests. How can we improve the form to better serve our guests knowledge
 
-1. Step 1
-1. Step 2
+1. Open the Hamburger catalog item from the Maintain Items Application Module
+1. Delete the Toppings checkbox variables from the item.
+1. Create a new variable and set it up as follows
+    Field | Value
+    ------|-------
+    **Type** | List Collector
+    **Question** | What toppings would you like?
+    **Name** | toppings
+    **Order** | 100
+1. Switch to the *Type Specifications* tab
+1. Set the *List Table* field to **x_snc_todo** <!-- TO DO -->
+1. Click Submit
+1. Open the **Internal Temperature** variable
+1. Update the form according to the table
+    Field | Value
+    ------|-------
+    **Type** | Select Box
+    **Question** | How would you like your meat cooked?
+    **Name** | doneness
+1. Save the Record
+1. Scroll down to the *Question Choices*
+1. Create the following choices
+   Text | Value | Order
+   ----- | ----- | ----
+   Rare | 120 | 100
+   Medium Rare | 135 | 200
+   Medium | 140 | 300
+   Medium Well | 155 | 400
+   Well Done | 160 | 500
+1. Click Update
 
-<!-- TO DO IDEA FOR LAB 3 -->
+## Lab 3.2 - All I want is a sandwich, but now you are asking me to be a cook? - Variable Sets
 
-## Lab 3.2 - Is there something else we can do for this topic
+<!-- TO DO -->
+During the usability testing we ran, participants complained that the same questions were asked in many different ways and the order of options was never consistent. This caused them to make mistakes in filling out the forms. Lets use Variable Sets to ensure consistency across similar catalog items
+
+1. Reopen the Hamburger catalog item
+1. Switch to the *Variable Sets* related list
+1. Click **New**
+1. Click **Single-Row Variable Set**
+1. Set the **Title** to *Common Beef Items*
+1. Click Submit
+1. Switch to the *Variables* related list
+1. Select the *How would you like your meat cooked?* variable
+1. Clear out the *Catalog Item* field
+1. Hit tab to leave the field
+1. A new field will show up, titled *Variable Set*
+1. Select **Common Beef Items** reference
+1. Click **Update**
+1. Repeat Steps 8-13 for the *What toppings would you like?* variable
+1. Add the *Common Beef Items* variable set to the Cheesteak catalog item.
+
 
 # Lab 4 - Don't Follow the Org Chart
 
@@ -180,6 +227,8 @@ Integer eu purus convallis, efficitur odio sed, malesuada nisl. Aliquam vitae pu
 
 1. Go to the [ServiceNow Innovation](http://servicenowinnovation.com) site
 1. Click **Library** in the header
-1. Click on **Portal Templates**
-1. Click on **Bondi** (*Note*: there are other records called **Bondi Theme**, but we want the one just called **Bondi** as that is a template)
+1. Click **Portal Templates**
+1. Click **Bondi** (*Note*: there are other records called **Bondi Theme**, but we want the one just called **Bondi** as that is a template)
 1. KEEP GOING
+
+
