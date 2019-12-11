@@ -66,7 +66,7 @@ Now we want to collect qualitative feedback by observing how someone interacts w
 
 Was the participant able to easily complete the tasks presented to them?
 If not, where did they encounter issues?
-How can we better leverage the platform to reduce the friction the participant encountered?
+How might we leverage the platform to reduce the friction the participant encountered?
 
 # Lab 2 - Information Finds the User
 
@@ -142,7 +142,7 @@ To wrap up this lab, we are going to configure some articles to show content bas
     **Knowledge Base** | Knowledge
     **Can Read** | Guests with Soy Allergies
     **Short Description** | Soy Allergen Info
-    **Article Body** | The Impossible Burger contains Soy. 
+    **Article Body** | The Impossible Burger contains Soy.
 1. Submit and Publish the block
 1. Repeat steps 6-8, changing the Can Read, Short Description, and Article Body fields per the table below
     Can Read | Short Description | Article Body
@@ -155,7 +155,7 @@ To wrap up this lab, we are going to configure some articles to show content bas
 1. Put your cursor on a newline after the “Allergy Info” heading
 1. Click Insert on the Soy block you created
 1. Repeated steps 12-13 for “coconut oil” and “potato”
-1. After the last Knowledge Block, add the following content 
+1. After the last Knowledge Block, add the following content
     >Impossible Burgers do not contain dairy, eggs, fish, peanuts, shellfish, or wheat, and it’s safe for those with alpha-gal syndrome.
 1. Click Publish
 1. Underneath “Related Links” click Preview Article with Blocks
@@ -169,8 +169,7 @@ Often times, when creating content for a portal, customers create it from the pe
 
 ## Lab 3.1 - This form has so many options, I'd rather go hungry. - Form Design
 
-<!-- TODO -->
-Something about what you saw in the usability tests. How can we improve the form to better serve our guests knowledge
+In the usability tests we ran, participants struggled to complete their orders. They specifically pointed out that the forms felt really long and confusing for each menu item they wanted to add. How might we improve the form inputs to make it more approachable for guests?
 
 1. Open the Hamburger catalog item from the Maintain Items Application Module
 1. Delete the Toppings checkbox variables from the item.
@@ -222,7 +221,7 @@ During the usability testing we ran, participants complained that the same quest
 1. Select **Common Beef Items** reference
 1. Click **Update**
 1. Repeat Steps 8-13 for the *What toppings would you like?* variable
-1. Add the *Common Beef Items* variable set to the Cheeseteak catalog item.
+1. Add the *Common Beef Items* variable set to the Cheese Steak catalog item.
 
 # Lab 4 - Don't Follow the Org Chart
 
@@ -257,4 +256,3 @@ Integer eu purus convallis, efficitur odio sed, malesuada nisl. Aliquam vitae pu
 1. Click **Portal Templates**
 1. Click **Bondi** (*Note*: there are other records called **Bondi Theme**, but we want the one just called **Bondi** as that is a template)
 1. KEEP GOING
-
