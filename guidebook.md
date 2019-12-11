@@ -130,8 +130,36 @@ The market of plant-based alternatives to beef and chicken continues to expand, 
 
 To wrap up this lab, we are going to configure some articles to show content based on User Criteria. This will use *Knowledge Blocks* to provide dynamic information, based on the user's profile.
 
-1. Step 1
-1. Step 2
+1. Go to Knowledge\>All in the Application Navigator
+1. Open the article: Impossible Meat Ingredient Information
+   >You’ll notice there is content for EVERY allergy issue possible in their recipe. Instead, we only want to show guests information related to their allergies
+1. Remove the content between the Allergy Info heading and the Nutrition Facts heading and save your article
+1. Navigate to Create new Block in the Application Navigator
+1. Fill out the the form per the table below
+    . TABLE – Knowledge Base, Can Read, Short Description, Article Body
+    Field | Value
+    ------|-------
+    **Knowledge Base** | Knowledge
+    **Can Read** | Guests with Soy Allergies
+    **Short Description** | Soy Allergen Info
+    **Article Body** | The Impossible Burger contains Soy. 
+1. Submit and Publish the block
+1. Repeat steps 6-8, changing the Can Read, Short Description, and Article Body fields per the table below
+    Can Read | Short Description | Article Body
+    ------- | ------------- | --------
+    Guest with Coconut Oil Allergy | Coconut Oil Allergen Info | The Impossible Burger contains Coconut Oil (the FDA classifies coconuts as tree nuts for food labelling purposes, but refined coconut oil is not considered an allergen).
+    Guest with Potato Allergy | Potato Allergen Info | The Impossible Burger also contains potato protein. If you have an allergy to either raw or cooked potatoes, you should not consume the Impossible Burger.
+1. Return to the Knowledge Article we edited earlier “Impossible Meat Ingredient Information”
+1. Click the Add Blocks UI Action
+1. In the Add Blocks panel search for “soy”
+1. Put your cursor on a newline after the “Allergy Info” heading
+1. Click Insert on the Soy block you created
+1. Repeated steps 12-13 for “coconut oil” and “potato”
+1. After the last Knowledge Block, add the following content 
+    >Impossible Burgers do not contain dairy, eggs, fish, peanuts, shellfish, or wheat, and it’s safe for those with alpha-gal syndrome.
+1. Click Publish
+1. Underneath “Related Links” click Preview Article with Blocks
+1. Change the View As to Dosie Do (vegetarian with no allergies) and Susie Su (vegetarian with potato allergy) to how the article changes.
 
 # Lab 3 - Consumers != Providers
 
@@ -194,8 +222,7 @@ During the usability testing we ran, participants complained that the same quest
 1. Select **Common Beef Items** reference
 1. Click **Update**
 1. Repeat Steps 8-13 for the *What toppings would you like?* variable
-1. Add the *Common Beef Items* variable set to the Cheesteak catalog item.
-
+1. Add the *Common Beef Items* variable set to the Cheeseteak catalog item.
 
 # Lab 4 - Don't Follow the Org Chart
 
@@ -230,5 +257,4 @@ Integer eu purus convallis, efficitur odio sed, malesuada nisl. Aliquam vitae pu
 1. Click **Portal Templates**
 1. Click **Bondi** (*Note*: there are other records called **Bondi Theme**, but we want the one just called **Bondi** as that is a template)
 1. KEEP GOING
-
 
