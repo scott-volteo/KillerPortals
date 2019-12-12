@@ -48,7 +48,7 @@ To learn more about the current state of your company's portal, we ran a survey 
 
 **Note:** We recommend this survey as a way for customers to assess the current state of their portal. You can download the [update set](files/survey.xml) with the survey.
 
-## 1.3 - Ussability Study
+## 1.3 - Usability Study
 
 Now we want to collect qualitative feedback by observing how someone interacts with the current portal. For this lab, you'll be pairing off with a partner and each assuming a different role.
 
@@ -250,15 +250,49 @@ We aggregated data from a similar exercise.
 
 In our usability studies, we learned that participants struggled to find cheeseburgers in the catalog because there is no specific catalog item called **Cheeseburger**. It is just a hamburger with cheese as a variable. Now we could add a separate catalog item, or improve the search results through meta data.
 
+1. Navigate to *Maintain Items* in the Application Navigator.
+1. Open up the **Hamburger** catalog item.
+1. Make sure you are on the *What will it contain* Related List.
+1. Add the following terms to the Meta field:
+
+    `cheeseburger, beefburger, burger, hamburg, cheeseburg, beef sandwich`
+
+1. Click **Update** to save your changes.
+1. Switch to Service Portal `/csp` and try a search for *cheeseburger*. Does your catalog item come back?
+
+> Note: It is very important to understand how the search engine works on ServiceNow. The following fields on a catalog item are searchable: `Name, Meta, Short Description, Description`. [Read more about catalog items and search](https://docs.servicenow.com/bundle/newyork-it-service-management/page/product/service-catalog-management/task/search-catalog-item.html)
+
 # Lab 5 - Keep the Portal in Context
 
 ## Goal
 
-Portals that don't follow corporate style guides make users confused as to where they are. Use Portal themeing to change out color schemes to match a company brand. Or, go beyond with a template to completely change the look and feel of a Portal to make it more closely match a desired design.
+Portals that don't follow corporate style guides make users confused as to where they are. Use Portal themes to change out color schemes to match a company brand. Or, go beyond with a template to completely change the look and feel of a Portal to make it more closely match a desired design.
 
 ## Lab 5.1 - Apply a Bootswatch Theme
 
-Suspendisse sodales sagittis feugiat. Donec ut urna vel lectus congue fringilla. Nullam a enim dictum, commodo ex ut, tristique nibh. Sed consectetur nulla eu lectus mollis aliquet. Vivamus vitae ante eget felis tincidunt mollis. Phasellus bibendum purus vel cursus vulputate. Suspendisse ut metus sit amet massa tempor placerat iaculis dictum elit. Praesent eu augue eu risus dapibus interdum. Pellentesque commodo sapien ac quam egestas, id dapibus enim mollis. Nullam tellus felis, eleifend at est sollicitudin, aliquam dignissim lectus. Sed ultricies posuere felis non rhoncus. Nulla massa nisl, sagittis a urna sit amet, ornare laoreet tortor. Mauris dolor massa, eleifend vitae magna in, scelerisque vulputate sapien. Sed sit amet gravida purus, at finibus quam. Proin non nisi ut sapien porta viverra id nec ipsum.
+Since Service Portal is built on the [Bootstrap v3](https://getbootstrap.com/docs/3.3/) framework, the Solution Innovation team challenged itself last year to port over a bunch of Bootstrap themes from the folks at [Bootswatch](https://bootswatch.com/3/) and see if they would work in our portal. These were packaged as update sets and are available for public use. They are only CSS modifications; therefore they introduce new widgets, layouts, or scripts. Let's try applying one to your portal
+
+1. Navigate to <http://www.servicenowinnovation.com> and navigate to the Library>Portal Templates>Themes>Bootswatch Themes.
+
+    ![How to get the Bootswatch themes](images/getBootswatch.gif)
+
+1. Download the Update Set from the page.
+1. Install the Update Set onto your instance.
+1. Navigate to Portals in the Application Navigator.
+1. Open the **CSP** portal.
+1. Click on the magnifying glass next to the *Theme* field.
+1. Now you should see 9 additional themes in the list. Select any one of the 9 themes, they are all prefixed with `BS_`
+
+    ![List of Bootswatch Themes](images/themes.png)
+
+1. Click **Update** to save your changes.
+1. Switch to Service Portal `/csp`. Do you noticed a change?
+
+### Think About
+
+> What else might you change to make the theme look better?
+>
+> What else can you do to make this theme tailored to your customer?
 
 ## Lab 5.2 - Challenge Lab - Apply the Bondi theme
 
