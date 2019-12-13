@@ -101,6 +101,7 @@ The market of plant-based alternatives to beef and chicken continues to expand, 
 
 1. Navigate to **Targeted Communications \> Create New Publication**
 1. Configure the publication
+
     Field | Value
     ------|-------
     **Short Description** | Introducing new Impossible Burgers&trade; to the menu!
@@ -136,19 +137,22 @@ To wrap up this lab, we are going to configure some articles to show content bas
 1. Remove the content between the Allergy Info heading and the Nutrition Facts heading and save your article
 1. Navigate to Create new Block in the Application Navigator
 1. Fill out the the form per the table below
-    . TABLE – Knowledge Base, Can Read, Short Description, Article Body
+
     Field | Value
     ------|-------
     **Knowledge Base** | Knowledge
     **Can Read** | Guests with Soy Allergies
     **Short Description** | Soy Allergen Info
     **Article Body** | The Impossible Burger contains Soy.
+
 1. Submit and Publish the block
 1. Repeat steps 6-8, changing the Can Read, Short Description, and Article Body fields per the table below
+
     Can Read | Short Description | Article Body
     ------- | ------------- | --------
     Guest with Coconut Oil Allergy | Coconut Oil Allergen Info | The Impossible Burger contains Coconut Oil (the FDA classifies coconuts as tree nuts for food labelling purposes, but refined coconut oil is not considered an allergen).
     Guest with Potato Allergy | Potato Allergen Info | The Impossible Burger also contains potato protein. If you have an allergy to either raw or cooked potatoes, you should not consume the Impossible Burger.
+
 1. Return to the Knowledge Article we edited earlier “Impossible Meat Ingredient Information”
 1. Click the Add Blocks UI Action
 1. In the Add Blocks panel search for “soy”
@@ -174,12 +178,14 @@ In the usability studies we ran, participants struggled to complete their orders
 1. Open the Hamburger catalog item from the Maintain Items Application Module
 1. Delete all the Toppings checkbox variables from the item.
 1. Create a new variable and set it up as follows
+
     Field | Value
     ------|-------
     **Type** | List Collector
     **Question** | What toppings would you like?
     **Name** | toppings
     **Order** | 100
+
 1. Switch to the *Type Specifications* tab
 1. Set the *List Table* field to **x_snc_ts20_portal_toppings**
 1. Set the *Reference Qualifier* to `type=other`
@@ -188,12 +194,14 @@ In the usability studies we ran, participants struggled to complete their orders
 Guests also have very specific preferences for the their cheese, so let's separate that from the rest of the toppings
 
 1. Create a new variable and set it up as follows
+
     Field | Value
     ------|-------
     **Type** | List Collector
     **Question** | What toppings would you like?
     **Name** | toppings
     **Order** | 100
+
 1. Switch to the *Type Specifications* tab
 1. Set the *List Table* field to **x_snc_ts20_portal_toppings**
 1. Set the *Reference Qualifier* to `type=cheese`
@@ -203,14 +211,17 @@ Guests also have very specific preferences for the their cheese, so let's separa
 
 1. Open the **Internal Temperature** variable
 1. Update the form according to the table
+
     Field | Value
     ------|-------
     **Type** | Select Box
     **Question** | How would you like your meat cooked?
     **Name** | doneness
+
 1. Save the Record
 1. Scroll down to the *Question Choices*
 1. Create the following choices
+  
    Text | Value | Order
    ----- | ----- | ----
    Rare | 120 | 100
@@ -218,6 +229,7 @@ Guests also have very specific preferences for the their cheese, so let's separa
    Medium | 140 | 300
    Medium Well | 155 | 400
    Well Done | 160 | 500
+
 1. Click Update
 
 ## Lab 3.2 - All I want is a sandwich, but now you are asking me to be a cook? - Variable Sets
