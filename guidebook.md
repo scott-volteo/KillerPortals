@@ -172,7 +172,7 @@ Often times, when creating content for a portal, customers create it from the pe
 In the usability studies we ran, participants struggled to complete their orders. They specifically pointed out that the forms felt really long and confusing for each menu item they wanted to add. How might we improve the form inputs to make it more approachable for guests?
 
 1. Open the Hamburger catalog item from the Maintain Items Application Module
-1. Delete the Toppings checkbox variables from the item.
+1. Delete all the Toppings checkbox variables from the item.
 1. Create a new variable and set it up as follows
     Field | Value
     ------|-------
@@ -181,8 +181,26 @@ In the usability studies we ran, participants struggled to complete their orders
     **Name** | toppings
     **Order** | 100
 1. Switch to the *Type Specifications* tab
-1. Set the *List Table* field to **x_snc_todo** <!-- TO DO -->
+1. Set the *List Table* field to **x_snc_ts20_portal_toppings**
+1. Set the *Reference Qualifier* to `type=other`
 1. Click Submit
+
+Guests also have very specific preferences for the their cheese, so let's separate that from the rest of the toppings
+
+1. Create a new variable and set it up as follows
+    Field | Value
+    ------|-------
+    **Type** | List Collector
+    **Question** | What toppings would you like?
+    **Name** | toppings
+    **Order** | 100
+1. Switch to the *Type Specifications* tab
+1. Set the *List Table* field to **x_snc_ts20_portal_toppings**
+1. Set the *Reference Qualifier* to `type=cheese`
+1. Click Submit
+
+### Let's fix the Temperature as well
+
 1. Open the **Internal Temperature** variable
 1. Update the form according to the table
     Field | Value
