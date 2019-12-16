@@ -1,5 +1,9 @@
 # Introduction
 
+## Scenario
+
+Our customer "ServiceNow Suites" currently has a self-service portal on ServiceNow for ordering Room Service. It has been deployed for the last 1 year to mixed customer feedback about the experience of ordering room service. Some common complaints include customer confusion around dietary restrictions, difficulty finding and submitting the desired meal choices, and a lack of brand cohesion between the portal and the customer's public facing site.
+
 ## Goal
 
 The goal of this lab is the reinforce the Best Practices and Key Capabilities from the presentation today. In it you will leverage key ServiceNow capabilities to design a portal that is contextual to the user; with relevant content and catalog items, visually different; with the application of a simple or complex theme change, and representative of a portal that helps a customer's journey to self-service
