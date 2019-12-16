@@ -270,7 +270,7 @@ Portals that don't follow corporate style guides make users confused as to where
 
 ## Lab 5.1 - Apply a Bootswatch Theme
 
-Since Service Portal is built on the [Bootstrap v3](https://getbootstrap.com/docs/3.3/) framework, the Solution Innovation team challenged itself last year to port over a bunch of Bootstrap themes from the folks at [Bootswatch](https://bootswatch.com/3/) and see if they would work in our portal. These were packaged as update sets and are available for public use. They are only CSS modifications; therefore they introduce new widgets, layouts, or scripts. Let's try applying one to your portal
+Since Service Portal is built on the [Bootstrap v3](https://getbootstrap.com/docs/3.3/) framework, the Solution Innovation team challenged itself last year to port over a bunch of Bootstrap themes from the folks at [Bootswatch](https://bootswatch.com/3/) and see if they would work in our portal. These were packaged as update sets and are available for public use. They are only CSS modifications; therefore they do not introduce new widgets, layouts, or scripts. Let's try applying one to your portal
 
 1. Navigate to <http://www.servicenowinnovation.com> and navigate to the Library>Portal Templates>Themes>Bootswatch Themes.
 
@@ -288,7 +288,7 @@ Since Service Portal is built on the [Bootstrap v3](https://getbootstrap.com/doc
 1. Click **Update** to save your changes.
 1. Switch to Service Portal `/csp`. Do you noticed a change?
 
-### Think About
+### Think About / Challenge
 
 > What else might you change to make the theme look better?
 >
