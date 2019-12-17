@@ -302,7 +302,7 @@ In our usability studies, we learned that participants struggled to find cheeseb
 1. Click **Update** to save your changes.
 1. Switch to Service Portal `/room_service` and try a search for *cheeseburger*. Does your catalog item come back?
 
-> Note: It is very important to understand how the search engine works on ServiceNow. The following fields on a catalog item are searchable: `Name, Meta, Short Description, Description`. [Read more about catalog items and search](https://docs.servicenow.com/bundle/newyork-it-service-management/page/product/service-catalog-management/task/search-catalog-item.html)
+> Note: It is very important to understand how the search engine works on ServiceNow. The following fields on a catalog item are searchable out of the box: `Name, Meta, Short Description, Description`. [Read more about catalog items and search](https://docs.servicenow.com/bundle/newyork-it-service-management/page/product/service-catalog-management/task/search-catalog-item.html)
 
 # Lab 5 - Keep the Portal in Context
 
