@@ -338,7 +338,7 @@ Since Service Portal is built on the [Bootstrap v3](https://getbootstrap.com/doc
 
 ## Lab 5.2 - Challenge Lab - Apply the Bondi theme
 
-Integer eu purus convallis, efficitur odio sed, malesuada nisl. Aliquam vitae pulvinar lorem. Suspendisse sollicitudin imperdiet ligula sit amet mattis. Nullam aliquet neque ut mi fermentum varius. Suspendisse pellentesque metus elit, at vestibulum felis volutpat in. Curabitur maximus magna id nulla laoreet scelerisque. Aliquam enim nisl, fringilla ac magna at, varius posuere elit. Nulla hendrerit gravida felis, sit amet viverra neque egestas id. Sed commodo rhoncus enim, in semper massa pellentesque in. Proin dapibus velit et nisi vehicula cursus. Fusce feugiat efficitur varius. Maecenas non sapien fringilla, porta felis eleifend, luctus dui.
+Sometimes customers want to see more than different colors and and fonts applied to the portal. They want to see how far they can "push" the boundaries of Service Portal to reflect their brand or generally more modern design. The Solution Innovation team created the Bondi template in early 2019 to reflect a dramatically different view into Service Portal. The team has applied it to custom looking IT and CSM portals as well as the Employee Service Center.
 
 1. Go to the [ServiceNow Innovation](http://servicenowinnovation.com) site
 1. Click **Library** in the header
