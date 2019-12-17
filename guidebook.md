@@ -257,7 +257,7 @@ During the usability studying we ran, participants complained that the same ques
 1. Click **Update**.
 1. Repeat Steps 8-13 for the *What toppings would you like?* variable.
 1. Add the *Common Beef Items* variable set to the Cheese Steak catalog item.
-1. Go to the `/sp` on your instance and open one of the catalog items you just edited. Does it have the new variables?
+1. Go to the `/room_service` on your instance and open one of the catalog items you just edited. Does it have the new variables?
 
 >**Take Away** How did the changes we make, make the experience easier for our guests to put in their order?
 
@@ -293,7 +293,7 @@ In our usability studies, we learned that participants struggled to find cheeseb
     `cheeseburger, beefburger, burger, hamburg, cheeseburg, beef sandwich`
 
 1. Click **Update** to save your changes.
-1. Switch to Service Portal `/csp` and try a search for *cheeseburger*. Does your catalog item come back?
+1. Switch to Service Portal `/room_service` and try a search for *cheeseburger*. Does your catalog item come back?
 
 > Note: It is very important to understand how the search engine works on ServiceNow. The following fields on a catalog item are searchable: `Name, Meta, Short Description, Description`. [Read more about catalog items and search](https://docs.servicenow.com/bundle/newyork-it-service-management/page/product/service-catalog-management/task/search-catalog-item.html)
 
@@ -321,7 +321,7 @@ Since Service Portal is built on the [Bootstrap v3](https://getbootstrap.com/doc
     ![List of Bootswatch Themes](images/themes.png)
 
 1. Click **Update** to save your changes.
-1. Switch to Service Portal `/csp`. Do you noticed a change?
+1. Switch to Service Portal `/room_service`. Do you noticed a change?
 
 ### Think About / Challenge
 
