@@ -267,19 +267,26 @@ During the usability studying we ran, participants complained that the same ques
 
 Similar to the previous lab, customers don't always know how to communicate to their end users. They use internal naming conventions, acronyms, and organize content based on their org chat. That does not always map to how users talk about the services and articles a portal provides. In this lab we'll explore how to learn about how users organize information and then use that insight to improve the catalog.
 
-## Lab  4.1 - Card Sort
+## Lab  4.1 - Discussion of Card Sort
 
-The first activity is to participate in a card sort. This is a *learning* activity to better understand the users before creating a solution. This is something a customer's User Experience Team might run, or you might help them setup this exercise. There are great third party tools out there to run these studies such as [Optimal Sort](https://www.optimalworkshop.com/optimalsort). For today, we'll just use a Visual Task Board (VTB) to simulate the exercise.
+During the presentation, everyone participated in an *Open Card Sort*. In small groups, we want you to discuss how you might interpret the results to update your catalog. The results are available online at [results](https://www.optimalworkshop.com/optimalsort/84e88w66/ts2020/shared-results/fgf7281h770mq5lbup755d4147873q2a).
 
-1. On your instance, use the Application Navigator to open *My Task Boards*
-1. Make sure *Boards you Belong To* is the selected tab.
-1. Open *Room Service Card Sort*
-1. Take the next **5 Minutes** to organize all the cards (menu items) in the *Unsorted* lane into the appropriate lane (menu section) that you would expect to find that item.
-1. If there is not a lane that your item fits into, feel free to use the **Add Lane** button to add a new menu section.
+1. Break off into groups of 3-4, with the people sitting around you.
+1. Pull up the [results](https://www.optimalworkshop.com/optimalsort/84e88w66/ts2020/shared-results/fgf7281h770mq5lbup755d4147873q2a) on someone's laptop
+1. Navigate to the Analysis>Categories tab to see the results
+1. Discuss with your group how you'd reorganize the menu based on the card sort data.
+1. Move on to Lab 4.2 after 5 minutes.
 
 ## Lab 4.2 - Update Catalog
 
-We aggregated data from a similar exercise.
+Based on the discussions you had in Lab 4.1, it is now time to update the catalog based on your findings. In the interest of time, let's make changes to the following 3 items
+
+- The *Impossible Burger&trade;* is the most popular menu item in the last month. Let's keep it that way; make sure it is in the right category(ies) based on your research
+- The chef is surprised more people aren't ordering the *Quesadilla* and thinks its in the wrong place. What does the data say?
+- We just added a *Chicken Cheese Steak* to the menu, based on the data, where should it go?
+
+1. Navigate to *Maintain Items*
+1. Open each item and update using the *Categories* related list
 
 ## Lab 4.3 - Improve the Meta Data
 
