@@ -112,7 +112,7 @@ The market of plant-based alternatives to beef and chicken continues to expand, 
     **Content** | This month, we are excited to introduce a new addition to our Vegetarian Menu, the Impossible Burger&trade;. All of our mouth-watering burger specials can now be had with the delicious plant-based patty. In addition, we are introducing 2 new burgers that feature the Impossible Burger; the Predictably Impossible and the Impossibly Sweet Burgers. Enjoy the savory juiciness in our new offerings.
     **Content Type** | HTML
     **Category** | Information
-    **Publish Date** | Jan 23, 2020
+    **Publish Date** | 5 Minutes from Now
     **Expiry Date** | Jan 30, 2020
     **Email Template** | ImpossibleEmails
 
@@ -128,8 +128,9 @@ The market of plant-based alternatives to beef and chicken continues to expand, 
 
     ![Recipient List Configuration](images/recipientList.png)
 
-1. Submit the Publication
-1. **TODO* Any more steps? TKTKTKTK
+1. Click **Send for Review**
+1. Click **Preview Target Email**
+1. After the article is published, you should see it in the `/room_service` portal.
 
 ## Lab 2.3 When they read about the Room Service policies, they want information relevant to them - Knowledge Blocks
 
