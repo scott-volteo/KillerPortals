@@ -321,7 +321,7 @@ Since Service Portal is built on the [Bootstrap v3](https://getbootstrap.com/doc
 1. Download the Update Set from the page.
 1. Install the Update Set onto your instance.
 1. Navigate to Portals in the Application Navigator.
-1. Open the **CSP** portal.
+1. Open the **Room Service** portal.
 1. Click on the magnifying glass next to the *Theme* field.
 1. Now you should see 9 additional themes in the list. Select any one of the 9 themes, they are all prefixed with `BS_`
 
