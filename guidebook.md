@@ -2,7 +2,9 @@
 
 ## Scenario
 
-Our customer "ServiceNow Suites" currently has a self-service portal on ServiceNow for ordering Room Service. It has been deployed for the last 1 year to mixed customer feedback about the experience of ordering room service. Some common complaints include customer confusion around dietary restrictions, difficulty finding and submitting the desired meal choices, and a lack of brand cohesion between the portal and the customer's public facing site.
+Our customer, SN Suites, is a luxury regional hotel chain with significant presence in Las Vegas. In 2019, they went through a digital transformation to modernize their IT systems and have deployed ServiceNow across multiple areas including general IT Service Management and Hotel Customer Service Management. In addition, their on-site restaurant, House of Greens, is using ServiceNow for Restaurant Workflow Management and created a self-service portal on ServiceNow for ordering Room Service. It has been deployed for the last 1 year to mixed customer feedback about the experience of ordering room service. While many customers appreciate being able to order from the comfort of their room without needing to talk on the phone, some common complaints include customer confusion around dietary restrictions, difficulty finding and submitting the desired meal choices, and a lack of brand cohesion between the portal and the customer's public facing site.
+
+As a result, SN Suites is reconsidering the renewal of their subscription for their custom Restaurant Workflow Management application. They say that without a plan to improve their Portal it isn't providing enough value to justify their continued investment. The account team is looking to you to determine and implement tweaks to the Portal to provide SN Suite users a better experience and therefore alleviate the customer's concerns.
 
 ## Goal
 
@@ -112,7 +114,7 @@ The market of plant-based alternatives to beef and chicken continues to expand, 
     **Content** | This month, we are excited to introduce a new addition to our Vegetarian Menu, the Impossible Burger&trade;. All of our mouth-watering burger specials can now be had with the delicious plant-based patty. In addition, we are introducing 2 new burgers that feature the Impossible Burger; the Predictably Impossible and the Impossibly Sweet Burgers. Enjoy the savory juiciness in our new offerings.
     **Content Type** | HTML
     **Category** | Information
-    **Publish Date** | 5 Minutes from Now
+    **Publish Date** | Jan 23, 2020
     **Expiry Date** | Jan 30, 2020
     **Email Template** | ImpossibleEmails
 
@@ -128,9 +130,8 @@ The market of plant-based alternatives to beef and chicken continues to expand, 
 
     ![Recipient List Configuration](images/recipientList.png)
 
-1. Click **Send for Review**
-1. Click **Preview Target Email**
-1. After the article is published, you should see it in the `/room_service` portal.
+1. Submit the Publication
+1. **TODO* Any more steps? TKTKTKTK
 
 ## Lab 2.3 When they read about the Room Service policies, they want information relevant to them - Knowledge Blocks
 
@@ -257,7 +258,7 @@ During the usability studying we ran, participants complained that the same ques
 1. Click **Update**.
 1. Repeat Steps 8-13 for the *What toppings would you like?* variable.
 1. Add the *Common Beef Items* variable set to the Cheese Steak catalog item.
-1. Go to the `/room_service` on your instance and open one of the catalog items you just edited. Does it have the new variables?
+1. Go to the `/sp` on your instance and open one of the catalog items you just edited. Does it have the new variables?
 
 >**Take Away** How did the changes we make, make the experience easier for our guests to put in their order?
 
@@ -267,26 +268,19 @@ During the usability studying we ran, participants complained that the same ques
 
 Similar to the previous lab, customers don't always know how to communicate to their end users. They use internal naming conventions, acronyms, and organize content based on their org chat. That does not always map to how users talk about the services and articles a portal provides. In this lab we'll explore how to learn about how users organize information and then use that insight to improve the catalog.
 
-## Lab  4.1 - Discussion of Card Sort
+## Lab  4.1 - Card Sort
 
-During the presentation, everyone participated in an *Open Card Sort*. In small groups, we want you to discuss how you might interpret the results to update your catalog. The results are available online at [results](https://www.optimalworkshop.com/optimalsort/84e88w66/ts2020/shared-results/fgf7281h770mq5lbup755d4147873q2a).
+The first activity is to participate in a card sort. This is a *learning* activity to better understand the users before creating a solution. This is something a customer's User Experience Team might run, or you might help them setup this exercise. There are great third party tools out there to run these studies such as [Optimal Sort](https://www.optimalworkshop.com/optimalsort). For today, we'll just use a Visual Task Board (VTB) to simulate the exercise.
 
-1. Break off into groups of 3-4, with the people sitting around you.
-1. Pull up the [results](https://www.optimalworkshop.com/optimalsort/84e88w66/ts2020/shared-results/fgf7281h770mq5lbup755d4147873q2a) on someone's laptop
-1. Navigate to the Analysis>Categories tab to see the results
-1. Discuss with your group how you'd reorganize the menu based on the card sort data.
-1. Move on to Lab 4.2 after 5 minutes.
+1. On your instance, use the Application Navigator to open *My Task Boards*
+1. Make sure *Boards you Belong To* is the selected tab.
+1. Open *Room Service Card Sort*
+1. Take the next **5 Minutes** to organize all the cards (menu items) in the *Unsorted* lane into the appropriate lane (menu section) that you would expect to find that item.
+1. If there is not a lane that your item fits into, feel free to use the **Add Lane** button to add a new menu section.
 
 ## Lab 4.2 - Update Catalog
 
-Based on the discussions you had in Lab 4.1, it is now time to update the catalog based on your findings. In the interest of time, let's make changes to the following 3 items
-
-- The *Impossible Burger&trade;* is the most popular menu item in the last month. Let's keep it that way; make sure it is in the right category(ies) based on your research
-- The chef is surprised more people aren't ordering the *Quesadilla* and thinks its in the wrong place. What does the data say?
-- We just added a *Chicken Cheese Steak* to the menu, based on the data, where should it go?
-
-1. Navigate to *Maintain Items*
-1. Open each item and update using the *Categories* related list
+We aggregated data from a similar exercise.
 
 ## Lab 4.3 - Improve the Meta Data
 
@@ -300,9 +294,9 @@ In our usability studies, we learned that participants struggled to find cheeseb
     `cheeseburger, beefburger, burger, hamburg, cheeseburg, beef sandwich`
 
 1. Click **Update** to save your changes.
-1. Switch to Service Portal `/room_service` and try a search for *cheeseburger*. Does your catalog item come back?
+1. Switch to Service Portal `/csp` and try a search for *cheeseburger*. Does your catalog item come back?
 
-> Note: It is very important to understand how the search engine works on ServiceNow. The following fields on a catalog item are searchable out of the box: `Name, Meta, Short Description, Description`. [Read more about catalog items and search](https://docs.servicenow.com/bundle/newyork-it-service-management/page/product/service-catalog-management/task/search-catalog-item.html)
+> Note: It is very important to understand how the search engine works on ServiceNow. The following fields on a catalog item are searchable: `Name, Meta, Short Description, Description`. [Read more about catalog items and search](https://docs.servicenow.com/bundle/newyork-it-service-management/page/product/service-catalog-management/task/search-catalog-item.html)
 
 # Lab 5 - Keep the Portal in Context
 
@@ -321,14 +315,14 @@ Since Service Portal is built on the [Bootstrap v3](https://getbootstrap.com/doc
 1. Download the Update Set from the page.
 1. Install the Update Set onto your instance.
 1. Navigate to Portals in the Application Navigator.
-1. Open the **Room Service** portal.
+1. Open the **CSP** portal.
 1. Click on the magnifying glass next to the *Theme* field.
 1. Now you should see 9 additional themes in the list. Select any one of the 9 themes, they are all prefixed with `BS_`
 
     ![List of Bootswatch Themes](images/themes.png)
 
 1. Click **Update** to save your changes.
-1. Switch to Service Portal `/room_service`. Do you noticed a change?
+1. Switch to Service Portal `/csp`. Do you noticed a change?
 
 ### Think About / Challenge
 
@@ -338,7 +332,7 @@ Since Service Portal is built on the [Bootstrap v3](https://getbootstrap.com/doc
 
 ## Lab 5.2 - Challenge Lab - Apply the Bondi theme
 
-Sometimes customers want to see more than different colors and and fonts applied to the portal. They want to see how far they can "push" the boundaries of Service Portal to reflect their brand or generally more modern design. The Solution Innovation team created the Bondi template in early 2019 to reflect a dramatically different view into Service Portal. The team has applied it to custom looking IT and CSM portals as well as the Employee Service Center.
+Integer eu purus convallis, efficitur odio sed, malesuada nisl. Aliquam vitae pulvinar lorem. Suspendisse sollicitudin imperdiet ligula sit amet mattis. Nullam aliquet neque ut mi fermentum varius. Suspendisse pellentesque metus elit, at vestibulum felis volutpat in. Curabitur maximus magna id nulla laoreet scelerisque. Aliquam enim nisl, fringilla ac magna at, varius posuere elit. Nulla hendrerit gravida felis, sit amet viverra neque egestas id. Sed commodo rhoncus enim, in semper massa pellentesque in. Proin dapibus velit et nisi vehicula cursus. Fusce feugiat efficitur varius. Maecenas non sapien fringilla, porta felis eleifend, luctus dui.
 
 1. Go to the [ServiceNow Innovation](http://servicenowinnovation.com) site
 1. Click **Library** in the header
