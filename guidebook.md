@@ -342,7 +342,11 @@ Since Service Portal is built on the [Bootstrap v3](https://getbootstrap.com/doc
 >
 > What else can you do to make this theme tailored to your customer?
 
-## Lab 5.2 - Challenge Lab - Apply the Bondi theme
+## Lab 5.2 - Apply SN Suites Branding
+
+<!-- TODO Build Out This Lab -->
+
+## Lab 5.3 - Challenge Lab - Apply the Bondi theme
 
 Sometimes customers want to see more than different colors and and fonts applied to the portal. They want to see how far they can "push" the boundaries of Service Portal to reflect their brand or generally more modern design. The Solution Innovation team created the Bondi template in early 2019 to reflect a dramatically different view into Service Portal. The team has applied it to custom looking IT and CSM portals as well as the Employee Service Center.
 
