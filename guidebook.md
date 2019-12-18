@@ -2,7 +2,9 @@
 
 ## Scenario
 
-Our customer "ServiceNow Suites" currently has a self-service portal on ServiceNow for ordering Room Service. It has been deployed for the last 1 year to mixed customer feedback about the experience of ordering room service. Some common complaints include customer confusion around dietary restrictions, difficulty finding and submitting the desired meal choices, and a lack of brand cohesion between the portal and the customer's public facing site.
+Our customer, SN Suites, is a luxury regional hotel chain with significant presence in Las Vegas. In 2019, they went through a digital transformation to modernize their IT systems and have deployed ServiceNow across multiple areas including general IT Service Management and Hotel Customer Service Management. In addition, their on-site restaurant, House of Greens, is using ServiceNow for Restaurant Workflow Management and created a self-service portal on ServiceNow for ordering Room Service. It has been deployed for the last 1 year to mixed customer feedback about the experience of ordering room service. While many customers appreciate being able to order from the comfort of their room without needing to talk on the phone, some common complaints include customer confusion around dietary restrictions, difficulty finding and submitting the desired meal choices, and a lack of brand cohesion between the portal and the customer's public facing site.
+
+As a result, SN Suites is reconsidering the renewal of their subscription for their custom Restaurant Workflow Management application. They say that without a plan to improve their Portal it isn't providing enough value to justify their continued investment. The account team is looking to you to determine and implement tweaks to the Portal to provide SN Suite users a better experience and therefore alleviate the customer's concerns.
 
 ## Goal
 
