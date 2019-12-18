@@ -74,6 +74,10 @@ Was the participant able to easily complete the tasks presented to them?
 If not, where did they encounter issues?
 How might we leverage the platform to reduce the friction the participant encountered?
 
+### Resources
+
+[Portal Usability Study Script](https://sc.service-now.com/snideation?page=3&direct=true&title=Gather%20User%20Feedback&sys_id=b5dd22bfdbb9db803eb8f4bbaf96194f)
+
 # Lab 2 - Information Finds the User
 
 ## Goal
