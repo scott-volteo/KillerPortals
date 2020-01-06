@@ -1,5 +1,9 @@
 {
     "pasteImage" : {
         "basePath ": "${projectRoot}/images"
-    }
+    },
+    "cSpell.words": [
+        "Dosie",
+        "cheeseburg"
+    ]
 }

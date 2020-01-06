@@ -278,7 +278,7 @@ Similar to the previous lab, customers don't always know how to communicate to t
 During the presentation, everyone participated in an *Open Card Sort*. In small groups, we want you to discuss how you might interpret the results to update your catalog. The results are available online at [results](https://www.optimalworkshop.com/optimalsort/84e88w66/ts2020/shared-results/fgf7281h770mq5lbup755d4147873q2a).
 
 1. Break off into groups of 3-4, with the people sitting around you.
-1. Pull up the [results](https://www.optimalworkshop.com/optimalsort/84e88w66/ts2020/shared-results/fgf7281h770mq5lbup755d4147873q2a) on someone's laptop
+1. Pull up the [results](https://www.optimalworkshop.com/optimalsort/84e88w66/ts2020/shared-results/fgf7281h770mq5lbup755d4147873q2a) on someone's laptop <!-- TODO Update the URL -->
 1. Navigate to the Analysis>Categories tab to see the results
 1. Discuss with your group how you'd reorganize the menu based on the card sort data.
 1. Move on to Lab 4.2 after 5 minutes.
@@ -296,7 +296,7 @@ Based on the discussions you had in Lab 4.1, it is now time to update the catalo
 
 ## Lab 4.3 - Improve the Meta Data
 
-In our usability studies, we learned that participants struggled to find cheeseburgers in the catalog because there is no specific catalog item called **Cheeseburger**. It is just a hamburger with cheese as a variable. Now we could add a separate catalog item, or improve the search results through meta data.
+In our usability studies, we learned that participants struggled to find cheeseburgers in the catalog because there is no specific catalog item called **Cheeseburger**. It is just a hamburger with cheese as a variable. Now we could add a separate catalog item, or improve the search results through meta data. <!-- TODO Add a note about how card sort led to this as well -->
 
 1. Navigate to *Maintain Items* in the Application Navigator.
 1. Open up the **Hamburger** catalog item.
